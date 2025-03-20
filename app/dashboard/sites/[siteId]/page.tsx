@@ -165,7 +165,7 @@ export default async function SiteIdRoute({
                               <DropdownMenuItem asChild>
                                 <Link
                                   className="cursor-pointer"
-                                  href={`/dashboard/sites/${params.siteId} /${item.id}`}
+                                  href={`/dashboard/sites/${params.siteId}/${item.id}`}
                                 >
                                   Edit
                                 </Link>
