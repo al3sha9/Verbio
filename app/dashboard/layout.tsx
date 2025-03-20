@@ -6,6 +6,7 @@ import DashboardItems from "../components/dashboard/dashboardItems";
 import { CircleUser, DollarSign, Globe, Home } from "lucide-react";
 import { ModeToggle } from "../components/dashboard/uiToggle";
 import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components";
+import { Toaster } from "@/components/ui/sonner";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -75,6 +76,7 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
         </header>
         <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
           {children}
+          <Toaster richColors closeButton />
         </main>
       </div>
     </section>
