@@ -144,8 +144,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📞 Contact
 
-Your Name - [Your Email]
-
 Project Link: [https://github.com/al3sha9/verbio](https://github.com/al3sha9/verbio)
 
 ## 🙌 Acknowledgements
