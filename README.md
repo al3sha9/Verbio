@@ -23,10 +23,10 @@ Verbio is a robust, modern web solution built with cutting-edge technologies, of
 - Supabase Postgres Database
 - Prisma ORM for efficient data management
 
-### 💳 Payments
+<!-- ### 💳 Payments
 - Stripe Integration
   - Secure payment processing
-  - Webhook implementation for transaction tracking
+  - Webhook implementation for transaction tracking -->
 
 ### 📤 File Management
 - File uploads with Uploadthing
@@ -49,7 +49,7 @@ Verbio is a robust, modern web solution built with cutting-edge technologies, of
 - **Authentication**: Kinde
 - **Database**: Supabase Postgres
 - **ORM**: Prisma
-- **Payments**: Stripe
+<!-- - **Payments**: Stripe -->
 - **Validation**: Zod, Conform
 - **File Upload**: Uploadthing
 - **Styling**: Tailwind CSS, Shadcn UI
@@ -60,7 +60,7 @@ Verbio is a robust, modern web solution built with cutting-edge technologies, of
 - Node.js
 - npm or Yarn
 - Supabase Account
-- Stripe Account
+<!-- - Stripe Account -->
 - Kinde Account
 - Google/GitHub OAuth Applications
 
@@ -90,9 +90,9 @@ Create a `.env.local` file with the following variables:
 NEXT_PUBLIC_SUPABASE_URL=
 SUPABASE_SERVICE_ROLE_KEY=
 
-# Stripe
+<!-- # Stripe
 STRIPE_SECRET_KEY=
-STRIPE_WEBHOOK_SECRET=
+STRIPE_WEBHOOK_SECRET= -->
 
 # Kinde
 KINDE_CLIENT_ID=
@@ -150,7 +150,7 @@ Project Link: [https://github.com/al3sha9/verbio](https://github.com/al3sha9/ver
 
 - [Next.js](https://nextjs.org/)
 - [Supabase](https://supabase.com/)
-- [Stripe](https://stripe.com/)
+<!-- - [Stripe](https://stripe.com/) -->
 - [Kinde](https://kinde.com/)
 - [Prisma](https://www.prisma.io/)
 - [Tailwind CSS](https://tailwindcss.com/)
